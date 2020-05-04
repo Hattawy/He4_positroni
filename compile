@@ -1,0 +1,7 @@
+#! /bin/bash
+pdflatex -shell-escape MyWPCont.tex
+bibtex MyWPCont
+pdflatex -shell-escape MyWPCont.tex
+pdflatex -shell-escape MyWPCont.tex
+rm -f *.tex~ *.mtc1 *.aux *.dvi *.lof *.log *.out *.lot *.toc *.brf *.maf *.mtc *.mtc0 *.nlo *.bbl *.blg
+

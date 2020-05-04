@@ -8,7 +8,7 @@
 
 \begin{document}
 
-\title{DVCS off He nuclei with positron beams}
+\title{Deeply virtual Compton scattering off He nuclei with positron beams}
 \shorttitle{Positrons on He targets}
 
 % Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
@@ -24,12 +24,13 @@
 %the command above serves to have a word count for the abstract
 \begin{abstract}
 %\blindtext
-The relevance of using (polarized) positron beams in DVCS off $^4$He and $^3$He 
+The relevance of using positron beams in (deeply virtual Compton scattering (DVCS) off $^4$He and $^3$He 
    is addressed. The way the so-called $d-$term could be extracted from the 
    real part of the relevant Compton form factor, using as an example coherent 
-   DVCS on $^4$He, is summarized. The importance and novelty of such a 
-   measurement is presented. The role of $^3$He targets, of incoherent (tagged) 
-   DVCS processes, and the unique possibility offered by positron beams for the 
+   DVCS on $^4$He, is summarized, and the importance and novelty of this measurement is described. Analogous measurements are addressed for $^3$He tagets,
+   which could be very useful even in a standard unpolarized setup, measuring beam spin asymmetries and charge beam asymmetries only.
+   The role of incoherent  
+   DVCS processes, in particular tagging the internal target by measuring slow recoiling nuclei,  and the unique possibility offered by positron beams for the 
    investigation of Compton form factors of higher twist, are also  briefly 
    addressed.
 \end {abstract}
@@ -45,25 +46,30 @@ The relevance of using (polarized) positron beams in DVCS off $^4$He and $^3$He
 %r.henriques\at ucl.ac.uk
 %\end{corrauthor}
 
-%\section*{Introduction}
-
-In the last few years, there has been a growing interest on nuclear DVCS, 
-   thanks essentially to two reasons. The first being the possibility to shed 
+\section*{Introduction}
+{\bf
+The possibility to shed 
    light on the EMC effect, i.e., the nuclear modifications of the nucleon 
-   parton structure \cite{Dupre:2015jha, Cloet:2019mql}, while the second 
-   reason is being the possibility to distinguish coherent and incoherent 
-   channels of nuclear DVCS, which is experimentally demonstrated recently by 
-   the CLAS collaboration at JLab using a $^4$He gaseous target 
-   \cite{Hattawy:2017woc, Hattawy:2018liu}.
+   parton structure \cite{Dupre:2015jha, Cloet:2019mql}, as well as
+   the possibility to distinguish coherent and incoherent 
+   channels, experimentally recently demonstrated by 
+   the CLAS collaboration at JLab using a $^4$He gaseous target
+     \cite{Hattawy:2017woc, Hattawy:2018liu},
+   have produced, in recent years, a growing interest on nuclear deeply virtual Compton scattering (DVCS). Let us analyze
+   the imact that measurements of positron initiated DVCS on $^4$He and $^3$He may have, separately for the coherent an incoherent channels}.
 
+\section*{Coherent DVCS}
 To fix the ideas on how positron beams could help in this field, 
-let us think to coherent DVCS off $^4$He.
+let us think first to coherent DVCS off $^4$He.
 %As observed for the nucleon target before in this White Paper,
 %positrons allow a precise extraction of the Re CFF.
-We recall that $^4$He has only one chiral even Compton Form Factor (CFF) at 
-   leading twist. In the EG6 experiment the crucial measured
+We recall that $^4$He has only one chiral even Compton Form Factor (CFF), corresponding
+to one generalized parton distribution (GPD) at 
+   leading twist. In the EG6 experiment of the CLAS collaboration
+   \cite{Hattawy:2017woc}
+   the crucial measured
 observable was the single-spin asymmetry
-$A_{LU}$, which can be extracted from the reaction yields for the two electron
+$A_{LU}$, which can be extracted from the reaction yields with the two electron
 helicities ($N^{\pm}$):
 \begin{equation}
 A_{LU} = \frac{1}{P_{B}} \frac{N^{+} - N^{-}}{N^{+} + N^{-} },
@@ -92,25 +98,49 @@ den(\phi) & = &
 \label{boh}
 \end{eqnarray}
 The kinematic factors $\alpha_i$ are known (see, e.g., Ref.  
-\cite{Belitsky:2001ns,Belitsky:2008bz}). Using the different $\sin(\phi)$ and 
-$\cos(\phi)$ contributions, in the experimental analysis, both the real and 
-imaginary part of the so-called Compton Form Factor $\mathcal{H}_{A}$,
+\cite{Belitsky:2001ns,Belitsky:2008bz}). 
+In the experimental analysis,
+using the different contributions proportional to
+$\sin(\phi)$ and 
+$\cos(\phi)$ in \eqref{boh},  both the real and 
+imaginary parts of the so-called Compton Form Factor $\mathcal{H}_{A}$,
 $\Re e(\mathcal{H}_{A})$ and $\Im m(\mathcal{H}_{A})$, respectively,
-have been extracted by fitting the $A_{LU}(\phi)$ distribution. Theoretical 
-calculations from Ref. \cite{Fucini:2018gso} are shown together with the data 
+have been extracted by fitting the $A_{LU}(\phi)$ distribution. 
+Results of the impulse approximation calculation  
+of Ref. \cite{Fucini:2018gso} are shown together with the data 
 of Ref. \cite{Hattawy:2017woc} in Figs. \ref{uno} and \ref{due}.
-Big statistical errors are seen everywhere but they are bigger for $\Re 
-e(\mathcal{H}_{A})$ than for $\Im m(\mathcal{H}_{A})$, due to the small 
-coefficient $\alpha_2$.
+Big statistical errors are seen everywhere in the data but the extracted $\Re 
+e(\mathcal{H}_{A})$ is less precise than $\Im m(\mathcal{H}_{A})$, due to the small 
+coefficient $\alpha_2$ in \eqref{boh}.
 
-Realistic theoretical calculations are possible for light nuclei and could help 
-to unveil an exotic behavior of the real part of $\mathcal{H}_{A}$.
-Forth-coming data form JLab 12 with electrons, using also the detector system
+\begin{figure}%[tbhp]
+%\centering
+\includegraphics[width=.7\linewidth, angle=270]{Figures/imxb.eps}
+\caption{The imaginary part of the CFF measured in coherent DVCS off $^4$He.
+Data from Ref. \cite{Hattawy:2017woc}; calculations (red crosses) from
+Ref. \cite{Fucini:2018gso}}
+\label{uno}
+%\end{figure}
+%\begin{figure}%[tbhp]
+%\centering
+\includegraphics[width=.7\linewidth, angle=270]{Figures/rexb.eps}
+\caption{
+The real part of the CFF measured in coherent DVCS off $^4$He.
+Data from Ref. \cite{Hattawy:2017woc}; calculations (red crosses) from
+Ref. \cite{Fucini:2018gso}
+}
+\label{due}
+\end{figure}
+
+Forth-coming data form JLab 12 with electron beams, using also the detector system
 developed by the ALERT run-group \cite{Armstrong:2017wfw}, will obtain smaller 
-errors; anyway $\Re e(\mathcal{H}_{A})$ will be always less precise than
-$\Im m(\mathcal{H}_{A})$, intrinsically, due to that small coefficient.
-The knowledge of $\Re e(\mathcal{H}_{A})$ would be instead crucial.
-Positrons would guarantee it, because combining data for asymmetries measured 
+errors. Realistic theoretical calculations are possible for light nuclei and could help 
+to unveil an exotic behavior of the real and imaginary part of $\mathcal{H}_{A}$.
+Nonetheless, the extracted $\Re e(\mathcal{H}_{A})$ will be always less precise than
+$\Im m(\mathcal{H}_{A})$, intrinsically, due to the small coefficient $\alpha_2$
+in \eqref{boh}.
+A precise knowledge of $\Re e(\mathcal{H}_{A})$ for light nuclei would be instead crucial.
+Positrons beams would guarantee this achievement: as a matter of fact, combining data for asymmetries measured 
 using electrons and positrons the role of $\Re e \mathcal{H}_{A}$ would be 
 directly accessed. Let us recall how it is possible.
 
@@ -125,8 +155,7 @@ in this White Paper,
 & + & e\sigma_{INT} + e \lambda \tilde \sigma_{INT} \, ,
 \label{gen}
 \end{eqnarray}
-
-The following relations hold:
+the following relations hold:
 \begin{eqnarray}
 \sigma_{BH} & \propto & \alpha_1(\phi)\, ,
 \nonumber \\
@@ -143,10 +172,10 @@ at JLab kinematics, dependent on higher twist CFFs.
 
 From a combined analysis of data taken with polarized electrons and/or 
 positrons, one could access all the five cross sections in \eqref{gen}.
-In particular, using only unpolarized electrons and positrons, $\Re 
-e(\mathcal{H}_{A})$ would be directly accessed. In particular, let us briefly 
+{\bf We stress in particular that, using just unpolarized electrons and positrons, $\Re 
+e(\mathcal{H}_{A})$ would be directly accessed, building charge beam asymmetries}. Let us briefly 
 analyze why the knowledge of $\Re e\mathcal{H}_{A}$ would be very
-important for nuclei. From a theoretical point of view, one can write,
+important for nuclei. Formally one can write,
 for the quantities $\Re e(\mathcal{H}_{A})$ and $\Im m \mathcal{H}_{A}$
 shown in Figs.~\ref{due} and \ref{uno} respectively \cite{Guidal:2013rya}:
 \begin{equation}
@@ -164,8 +193,11 @@ with:
 \end{equation}
 amd
 \begin{equation}
-    C_+(x,\xi) = \frac{1}{x+\xi}+\frac{1}{x-\xi} \, .
+    C_+(x,\xi) = \frac{1}{x+\xi}+\frac{1}{x-\xi} \, ,
 \end{equation}
+
+with $H(x,\xi,t)$ the chiral even, leading twist generalized parton distribution
+(GPD).
 
 
 Besides, it is also known that $\Re e(\mathcal{H}_{A})$ satisfies a once 
@@ -175,58 +207,85 @@ to $\Im m \mathcal{H}_{A}$, leading to
 \begin{equation}
 \Re e \mathcal{H}_{A} (\xi,t) \equiv
 {\cal P} \int_0^1 dx H_+(x,x,t) C_+(x,\xi)
-- \Delta(t)
+- \Delta(t) \, .
 \label{disp}
 \end{equation}
 
-One notices that, in contrast to the convolution integral entering the real 
+One notices that, in contrast to the convolution integral defining the real 
 part of the CFF in \eqref{ReC}, where the GPD enters for unequal values of its 
-first and second argument, the integrand in the DR (spectral function) 
+first and second argument, the integrand in the dispersion relation
 corresponds to the GPD where its first and second arguments are equal.
-The subtraction term $\Delta(t)$ can be related to the so called $d-$term and
-accurate measurements and precise calculations would allow to access therefore
-the nuclear $d-$term. This quantity, introduced initially to recover 
+The subtraction term $\Delta(t)$ can be related to the so-called $d-$term and
+accurate measurements, supplemented by precise calculations, would allow therefore to study
+this quantity in nuclei, for the first time.
+This $d-$term, introduced initially to recover 
 polinomiality in DDs approaches to GPDs modelling \cite{Polyakov:1999gs},
-can be related to the form factor of the QCD EMT (see e.g. Ref.  
+has been related to the form factor of the QCD energy momentum tensor (see e.g. Ref.  
 \cite{Polyakov:2018zvc}). It encodes information on the distribution of forces 
-and pressure between elementary QCD degrees of freedom in the nucleus. For
+and pressure between elementary QCD degrees of freedom in the target. For
 nuclei, it has been predicted to behave as $A^{7/3}$ in a mean field scheme, 
 either in the liquid drop model of nuclear structure \cite{Polyakov:2002yz}
 or in the Walecka model \cite{Jung:2014jja}. None of these approaches makes 
-much sense for light nuclei. Accurate realistic calculations are possible in 
-the latter case. Using light nuclei one would therefore explore, at the parton 
-level, the onset and evolution of the mean field behavior across the periodic 
-table, from deuteron to finite nuclei.
-
-\vskip 0.5cm
-
-In this sense, the $^3$He target acquires an important role: an intermediate 
+much sense for light nuclei, for which accurate realistic calculations are possible. 
+Using light nuclei one would therefore explore, at the parton 
+level, the onset and evolution of the mean field behavior across the
+periodic 
+table, from deuteron to $^4$He, whose density and binding are not far
+from those of finite nuclei.
+\vskip 0.2cm
+In this sense, coherent DVCS off $^3$He targets acquire an important role: an intermediate 
 behavior is expected between that of the almost unbound deuteron system and 
-that of the deeply bound alpha particle. The formalism would follow that 
-already presented for the proton, a spin one-half target, in terms of CFFs 
-defining proper spin dependent asymmetries. Realistic theoretical calculations
+that of the deeply bound alpha particle. The formal description of coherent DVCS
+off $^3$He follows that already presented for the proton, a spin one-half target, in terms of CFFs
+and related GPDs. Properly
+defining spin dependent asymmetries. Realistic theoretical calculations
 are available for GPDs 
 \cite{Scopetta:2004kj,Scopetta:2009sn,Rinaldi:2012ft,Rinaldi:2012pj} and are in 
-progress for the relevanto CFFS, cross sections and asymmetries. 
+progress for the relevanto CFFs, cross sections and asymmetries, representing
+an importanmt support to the planning of measurements.
+{\bf One should notice that, while the use of $^3$He, either longitudinally or transversely polarized,
+would represent at the moment a challenge, either with electron or positron beams, 
+beam charge asymmetries, built using
+electron and positron data, would represent, even with unpolarized $^3$He targets and unpolarized beams, a possible access to
+$\Re e \mathcal{H}_{A} (\xi,t)$,
+as previously described for $^4$He, with the same potential to explore the "d-"term.}
 
-\vskip 0.5cm
+\section*{Incoherent DVCS}
+{\bf
+A subject aside is represented by incoherent DVCS off He nuclei, i.e.,
+the process where, in the final state, the stuck proton is detected, its CFFs accessed, its GPDs, in principle, extracted and, ultimately, its tomography obtained.
+This would provide a pictorial representation of the realization of the EMC effect and a great progress towards the understanding of its dynamical origin.
+As already stressed, this channel has been successfully isolated by the EG6 experiment of the CLAS collaboration at JLab \cite{Hattawy:2018liu} and a first glimpse at the parton structure of the bound proton in the transverse coordinate space is therefore at hand (see the recent impulse approximation calculation in Ref. \cite{Fucini:2019xlc} for a theoretical description
+of the recent data with conventional realistic ingredients).
+The program at JLab 12 includes an improvement of the accuracy of these measurements, in particular, for the first time in DVCS, tagging the struck nucleon using the detector
+developed by the ALERT run group \cite{Armstrong:2017zcm}.
+This would allow to keep possible final state interactions, relevant in principle in this channel, under control.
+Measurements performed with 
+electron and positron beams  would allow for example the measurement of the $d-$term for the bound nucleon, either proton in $^3$He (tagging 2H from DVCS on $^3$He)  or in $^4$He (tagging $^3$H from 
+DVCS on $^4$He) or neutron in $^4$He (tagging $^3$He from DVCS on $^4$He). Modifications 
+of the $d-$term of the nucleon in the nuclear medium, studied e.g. in
+Ref.
+\cite{Jung:2014jja}, would be at hand, as well as a glimpse at the structure of the neutron
+in the transverse plane, complementary to that obtained with deuteron targets.}
 
-Needless to say, incoherent DVCS off He nuclei at JLab 12, in particular tagged using the detector
-developed by the ALERT run group \cite{Armstrong:2017zcm}, performed with 
-electron and positron beams, would allow the measurement of the $D-$term for 
-the bound nucleon, either proton (tagging 2H from DVCS on $^3$He or $^3$H from 
-DVCS on $^4$He) or neutron (tagging $^3$He from DVCS on $^4$He). Modifications 
-of the $D-$term of the nucleon in the nuclear medium, studied e.g. in 
-\cite{Jung:2014jja}, would be at hand, as well as a glimpse at the transverse 
-structure of the neutron, complementary to that obtained with deuteron targets.
+\section*{Higher twist structure}
 
-\vskip 0.5cm
+{\bf As a last argument,
+we note that, in principle, from the measurement of 
+beam spin asymmetries using polarized electrons and positrons
+in coherent DVCS off $^4$He, the 
+cross sections $\tilde 
+\sigma_{DVCS}$
+and $\tilde 
+\sigma_{INT}$
+appearing in \eqref{gen},
+could be independently accessed.
+For the first time, higher twist CFFs would be studied for a spin-less target, in particular for a nuclear target.
+To be further developed...
+}
 
-We note on passing that, in principle, from the measurement of $\tilde 
-\sigma_{DVCS}$ using electron and positron beams in coherent DVCS on $^4$He,
-for the first time higher twist CFFs would be studied for a spin-less target...
-To be developed????????????
-
+\section*{Conclusions}
+a few lines to be added
 
 
 
@@ -237,24 +296,7 @@ To be developed????????????
 %Just for kicks here's a citation \cite{Gustafsson2016}. And a %reference to a supplement \cref{note:Note1}. And %\nameref{note:Note1}.
 %\Blindtext
 
-\begin{figure}%[tbhp]
-%\centering
-\includegraphics[width=.7\linewidth, angle=270]{Figures/imxb.eps}
-\caption{The imaginary part of the CFF measured in coherent DVCS off $^4$He.
-Data from Ref. \cite{Hattawy:2017woc}; calculations (red crosses) from
-Ref. \cite{Fucini:2018gso}}
-\label{uno}
-%\end{figure}
-%\begin{figure}%[tbhp]
-%\centering
-\includegraphics[width=.7\linewidth, angle=270]{Figures/rexb.eps}
-\caption{
-The imaginary part of the CFF measured in coherent DVCS off $^4$He.
-Data from Ref. \cite{Hattawy:2017woc}; calculations (red crosses) from
-Ref. \cite{Fucini:2018gso}
-}
-\label{due}
-\end{figure}
+
 
 
 
@@ -281,7 +323,7 @@ Ref. \cite{Fucini:2018gso}
 %\blindtext
 %\end{acknowledgements}
 
-%\newpage
+\newpage
 
 \section*{Bibliography}
 \bibliography{MyWPCont}
